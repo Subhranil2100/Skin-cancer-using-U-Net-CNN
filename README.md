@@ -53,6 +53,20 @@ SkinCancerDetection/
 - **Use:**  Train U-Net for segmentation and CNN for classification.
 - **Download link** [ISIC2018_Task1-2_Training_Input](https://challenge.isic-archive.com/data/#2018)
 
+- Images Dataset
+Name: Melanoma Skin Cancer Dataset of 10,000 Images
+
+Source: Kaggle – hasnainjaved/melanoma-skin-cancer-dataset
+
+Structure:
+melanoma-skin-cancer-dataset-of-10000-images/link: https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images
+├── train/
+│   ├── benign/
+│   └── malignant/
+├── test/
+│   ├── benign/
+│   └── malignant/
+
 ---
 
 ## 🚀 Model Overview
