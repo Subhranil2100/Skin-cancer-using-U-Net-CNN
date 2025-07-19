@@ -51,6 +51,7 @@ SkinCancerDetection/
 - **Masks:** `ISIC2018_Task1_Training_GroundTruth/`
 - **Classes:** Benign and Malignant
 - **Use:**  Train U-Net for segmentation and CNN for classification.
+- **Download link** [ISIC2018_Task1-2_Training_Input](https://challenge.isic-archive.com/data/#2018)
 
 ---
 
