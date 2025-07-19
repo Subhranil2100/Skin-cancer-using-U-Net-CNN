@@ -75,34 +75,24 @@ SkinCancerDetection/
 ## 🔧 How It Works
 
 ### 1. **Train U-Net**
-```bash
 python train_unet.py
 Trains unet_model_lightweight.h5 on image-mask pairs
 
 Saves model and training plot
 
 2. Segment Dataset
-bash
-Copy
-Edit
 python segment_dataset.py
 Segments images in train/ and test/ using the U-Net
 
 Saves segmented versions for CNN training
 
 3. Train CNN Classifier
-bash
-Copy
-Edit
 python train_model.py
 Trains CNN on segmented dataset (train/, test/)
 
 Saves melanoma_cnn_model.h5 and training curves
 
 4. Evaluate and Predict
-bash
-Copy
-Edit
 python evaluate_and_display.py
 Evaluates model on test set
 
@@ -138,9 +128,6 @@ Confidence score
 A lightweight U-Net model designed for skin lesion segmentation using the ISIC 2018 dataset. It follows an encoder–decoder architecture with skip connections, processing 128×128 RGB images to produce binary masks. Trained with binary cross-entropy and Adam optimizer, it’s fast, efficient, and suitable for medical image analysis.
 
 🛠️ Requirements
-bash
-Copy
-Edit
 pip install tensorflow numpy pandas opencv-python scikit-learn matplotlib seaborn
 📌 Notes
 All training images are normalized to [0, 1].
